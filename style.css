@@ -46,7 +46,7 @@
     position: absolute;
     width: 100%;
     left: 280px;
-    opacity: 0;
+    /* opacity: 0; */
 }
 .sidebar_menu .menu{
    position: absolute;
@@ -71,4 +71,15 @@
 }
 #check{
     display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.btn_two i:hover{
+    font-size: 28px;
+}
+.sidebar_menu .social_media i:hover{
+    color: yellow;
+    opacity: 1.5;
+    transform: scale(2);
 }
